@@ -1,0 +1,8 @@
+if you import like, from kivy.uix.label import Lable   ,then in def build(self): return label(text="hello!")
+here in return if you  use, return label(text="hello",background_color=(0,0,1,1),font_size=150) then it tends to error
+
+
+but here if you are using  ,from kivy.uix.button import Button
+it will work in both the cases 
+
+so,here we can pass only one elemrnt from Label function but with Button we can pass one one more than one
