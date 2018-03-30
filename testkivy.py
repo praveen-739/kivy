@@ -15,3 +15,6 @@ class TutorialApp(App):
                 
 if __name__=="__main__":
         TutorialApp().run()
+
+        #moto
+        #here hello will move with your pointer and you can also maximze or minimize size of hello 
